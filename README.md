@@ -15,16 +15,18 @@ Fiz esse projeto para testar meus conhecimentos de Python e do fluxo Git/GitHub 
 
 ## Estrutura do projeto
 
+```
 hardware_health_reporter/
-├── main.py # orquestra a execução do programa
-├── snapshot.py # classe Snapshot (representa uma coleta)
-├── collector.py # classe HardwareCollector (coleta via psutil)
-├── evaluator.py # classe HealthEvaluator (classifica os níveis)
-├── reporter.py # exibe o relatório no console
-├── historic.py # classe LogWriter (salva histórico em csv)
+├── main.py              # orquestra a execução do programa
+├── snapshot.py          # classe Snapshot (representa uma coleta)
+├── collector.py         # classe HardwareCollector (coleta via psutil)
+├── evaluator.py         # classe HealthEvaluator (classifica os níveis)
+├── reporter.py          # exibe o relatório no console
+├── historic.py          # classe LogWriter (salva histórico em csv)
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 
 ## Como rodar
